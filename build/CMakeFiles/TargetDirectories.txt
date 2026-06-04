@@ -1,0 +1,15 @@
+/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles/edit_cache.dir
+/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles/rebuild_cache.dir
+/home/musab-farooq/Desktop/Break-Out/build/libs/CMakeFiles/edit_cache.dir
+/home/musab-farooq/Desktop/Break-Out/build/libs/CMakeFiles/rebuild_cache.dir
+/home/musab-farooq/Desktop/Break-Out/build/libs/external_libs/CMakeFiles/glad.dir
+/home/musab-farooq/Desktop/Break-Out/build/libs/external_libs/CMakeFiles/edit_cache.dir
+/home/musab-farooq/Desktop/Break-Out/build/libs/external_libs/CMakeFiles/rebuild_cache.dir
+/home/musab-farooq/Desktop/Break-Out/build/libs/graphics/CMakeFiles/graphics.dir
+/home/musab-farooq/Desktop/Break-Out/build/libs/graphics/CMakeFiles/edit_cache.dir
+/home/musab-farooq/Desktop/Break-Out/build/libs/graphics/CMakeFiles/rebuild_cache.dir
+/home/musab-farooq/Desktop/Break-Out/build/apps/CMakeFiles/edit_cache.dir
+/home/musab-farooq/Desktop/Break-Out/build/apps/CMakeFiles/rebuild_cache.dir
+/home/musab-farooq/Desktop/Break-Out/build/apps/sandbox/CMakeFiles/sandbox.dir
+/home/musab-farooq/Desktop/Break-Out/build/apps/sandbox/CMakeFiles/edit_cache.dir
+/home/musab-farooq/Desktop/Break-Out/build/apps/sandbox/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/sandbox.dir/main.cpp.o -o sandbox  ../../libs/graphics/libgraphics.a /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 ../../libs/external_libs/libglad.a 
