@@ -11,14 +11,6 @@ add_executable(sandbox
 
 target_link_libraries(sandbox
     PRIVATE
-        graphics
         game
         glfw
-)
-
-target_compile_definitions(sandbox
-    PRIVATE
-        SHADER_DIR="${CMAKE_SOURCE_DIR}/libs/graphics/include/"
-        TEXTURE_DIR="${CMAKE_SOURCE_DIR}/libs/graphics/texture/"
-        LEVEL_DIR="${CMAKE_SOURCE_DIR}/libs/game/levels/"
 )

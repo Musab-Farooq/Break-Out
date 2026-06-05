@@ -13,8 +13,7 @@
 #include <gamelevel.h>
 #include <resource_manager.h>
 #include <BallObject.h>
-
-// #include "power_up.h"
+#include <ParticleGenerator.h>
 
 
 enum GameState {
@@ -46,7 +45,6 @@ public:
     bool                    KeysProcessed[1024];
     unsigned int            Width, Height;
     std::vector<GameLevel>  Levels;
-    //std::vector<PowerUp>    PowerUps;
     unsigned int            Level;
     unsigned int            Lives;
 
@@ -60,8 +58,6 @@ public:
     void DoCollisions();
     void ResetLevel();
     void ResetPlayer();
-    //void SpawnPowerUps(GameObject &block);
-    // void UpdatePowerUps(float dt);
 };
 
 #endif

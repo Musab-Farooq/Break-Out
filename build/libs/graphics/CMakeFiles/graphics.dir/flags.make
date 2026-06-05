@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/musab-farooq/Desktop/Break-Out/libs/graphics/include -I/home/musab-farooq/Desktop/Break-Out/libs/external_libs/include -I/home/musab-farooq/Desktop/Break-Out/libs/external_libs/include/glm
+CXX_INCLUDES = -I/home/musab-farooq/Desktop/Break-Out/libs/graphics/include -I/home/musab-farooq/Desktop/Break-Out/libs/external_libs/include -I/home/musab-farooq/Desktop/Break-Out/libs/external_libs/include/glm -I/home/musab-farooq/Desktop/Break-Out/libs/game/include
 
 CXX_FLAGS = -std=gnu++17
 

@@ -182,7 +182,6 @@ libs/graphics/clean: libs/graphics/CMakeFiles/graphics.dir/clean
 apps/sandbox/CMakeFiles/sandbox.dir/all: libs/external_libs/CMakeFiles/glad.dir/all
 apps/sandbox/CMakeFiles/sandbox.dir/all: libs/external_libs/CMakeFiles/stb_image.dir/all
 apps/sandbox/CMakeFiles/sandbox.dir/all: libs/game/CMakeFiles/game.dir/all
-apps/sandbox/CMakeFiles/sandbox.dir/all: libs/graphics/CMakeFiles/graphics.dir/all
 	$(MAKE) $(MAKESILENT) -f apps/sandbox/CMakeFiles/sandbox.dir/build.make apps/sandbox/CMakeFiles/sandbox.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps/sandbox/CMakeFiles/sandbox.dir/build.make apps/sandbox/CMakeFiles/sandbox.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=15,16 "Built target sandbox"
@@ -260,8 +259,6 @@ libs/external_libs/CMakeFiles/stb_image.dir/clean:
 # Target rules for target libs/game/CMakeFiles/game.dir
 
 # All Build rule for target.
-libs/game/CMakeFiles/game.dir/all: libs/external_libs/CMakeFiles/glad.dir/all
-libs/game/CMakeFiles/game.dir/all: libs/external_libs/CMakeFiles/stb_image.dir/all
 libs/game/CMakeFiles/game.dir/all: libs/graphics/CMakeFiles/graphics.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/game/CMakeFiles/game.dir/build.make libs/game/CMakeFiles/game.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/game/CMakeFiles/game.dir/build.make libs/game/CMakeFiles/game.dir/build

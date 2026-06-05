@@ -411,4 +411,5 @@ apps/sandbox/CMakeFiles/sandbox.dir/main.cpp.o: \
  /home/musab-farooq/Desktop/Break-Out/libs/external_libs/include/stb_image/stb_image.h \
  /home/musab-farooq/Desktop/Break-Out/libs/graphics/include/texture.h \
  /home/musab-farooq/Desktop/Break-Out/libs/graphics/include/shaders.h \
- /home/musab-farooq/Desktop/Break-Out/libs/game/include/BallObject.h
+ /home/musab-farooq/Desktop/Break-Out/libs/game/include/BallObject.h \
+ /home/musab-farooq/Desktop/Break-Out/libs/graphics/include/ParticleGenerator.h

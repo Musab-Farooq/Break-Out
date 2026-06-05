@@ -92,12 +92,13 @@ sandbox_EXTERNAL_OBJECTS =
 
 apps/sandbox/sandbox: apps/sandbox/CMakeFiles/sandbox.dir/main.cpp.o
 apps/sandbox/sandbox: apps/sandbox/CMakeFiles/sandbox.dir/build.make
-apps/sandbox/sandbox: libs/graphics/libgraphics.a
 apps/sandbox/sandbox: libs/game/libgame.a
 apps/sandbox/sandbox: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
 apps/sandbox/sandbox: libs/graphics/libgraphics.a
-apps/sandbox/sandbox: libs/external_libs/libstb_image.a
+apps/sandbox/sandbox: libs/game/libgame.a
+apps/sandbox/sandbox: libs/graphics/libgraphics.a
 apps/sandbox/sandbox: libs/external_libs/libglad.a
+apps/sandbox/sandbox: libs/external_libs/libstb_image.a
 apps/sandbox/sandbox: apps/sandbox/CMakeFiles/sandbox.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sandbox"
 	cd /home/musab-farooq/Desktop/Break-Out/build/apps/sandbox && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sandbox.dir/link.txt --verbose=$(VERBOSE)
