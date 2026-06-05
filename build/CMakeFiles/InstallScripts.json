@@ -1,0 +1,15 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/masab/Desktop/Break-Out/build/cmake_install.cmake",
+		"C:/Users/masab/Desktop/Break-Out/build/apps/cmake_install.cmake",
+		"C:/Users/masab/Desktop/Break-Out/build/apps/sandbox/cmake_install.cmake",
+		"C:/Users/masab/Desktop/Break-Out/build/libs/cmake_install.cmake",
+		"C:/Users/masab/Desktop/Break-Out/build/libs/external_libs/cmake_install.cmake",
+		"C:/Users/masab/Desktop/Break-Out/build/libs/external_libs/include/glfw/cmake_install.cmake",
+		"C:/Users/masab/Desktop/Break-Out/build/libs/external_libs/include/glfw/src/cmake_install.cmake",
+		"C:/Users/masab/Desktop/Break-Out/build/libs/game/cmake_install.cmake",
+		"C:/Users/masab/Desktop/Break-Out/build/libs/graphics/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
