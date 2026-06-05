@@ -118,6 +118,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named sandbox
+
+# Build rule for target.
+sandbox: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandbox
+.PHONY : sandbox
+
+# fast build rule for target.
+sandbox/fast:
+	$(MAKE) $(MAKESILENT) -f apps/sandbox/CMakeFiles/sandbox.dir/build.make apps/sandbox/CMakeFiles/sandbox.dir/build
+.PHONY : sandbox/fast
+
+#=============================================================================
 # Target rules for targets named glad
 
 # Build rule for target.
@@ -129,6 +142,32 @@ glad: cmake_check_build_system
 glad/fast:
 	$(MAKE) $(MAKESILENT) -f libs/external_libs/CMakeFiles/glad.dir/build.make libs/external_libs/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
+
+#=============================================================================
+# Target rules for targets named stb_image
+
+# Build rule for target.
+stb_image: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stb_image
+.PHONY : stb_image
+
+# fast build rule for target.
+stb_image/fast:
+	$(MAKE) $(MAKESILENT) -f libs/external_libs/CMakeFiles/stb_image.dir/build.make libs/external_libs/CMakeFiles/stb_image.dir/build
+.PHONY : stb_image/fast
+
+#=============================================================================
+# Target rules for targets named game
+
+# Build rule for target.
+game: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game
+.PHONY : game
+
+# fast build rule for target.
+game/fast:
+	$(MAKE) $(MAKESILENT) -f libs/game/CMakeFiles/game.dir/build.make libs/game/CMakeFiles/game.dir/build
+.PHONY : game/fast
 
 #=============================================================================
 # Target rules for targets named graphics
@@ -143,19 +182,6 @@ graphics/fast:
 	$(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/build
 .PHONY : graphics/fast
 
-#=============================================================================
-# Target rules for targets named sandbox
-
-# Build rule for target.
-sandbox: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandbox
-.PHONY : sandbox
-
-# fast build rule for target.
-sandbox/fast:
-	$(MAKE) $(MAKESILENT) -f apps/sandbox/CMakeFiles/sandbox.dir/build.make apps/sandbox/CMakeFiles/sandbox.dir/build
-.PHONY : sandbox/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -164,9 +190,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... game"
 	@echo "... glad"
 	@echo "... graphics"
 	@echo "... sandbox"
+	@echo "... stb_image"
 .PHONY : help
 
 

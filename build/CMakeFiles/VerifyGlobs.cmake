@@ -12,10 +12,28 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles/cmake.verify_globs")
 endif()
 
+# GAME_SOURCES at libs/game/CMakeLists.txt:1 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/musab-farooq/Desktop/Break-Out/libs/game/src/*.cpp")
+set(OLD_GLOB
+  "/home/musab-farooq/Desktop/Break-Out/libs/game/src/BallObject.cpp"
+  "/home/musab-farooq/Desktop/Break-Out/libs/game/src/game.cpp"
+  "/home/musab-farooq/Desktop/Break-Out/libs/game/src/gamelevel.cpp"
+  "/home/musab-farooq/Desktop/Break-Out/libs/game/src/gameobject.cpp"
+  "/home/musab-farooq/Desktop/Break-Out/libs/game/src/window.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles/cmake.verify_globs")
+endif()
+
 # GRAPHICS_SOURCES at libs/graphics/CMakeLists.txt:1 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/musab-farooq/Desktop/Break-Out/libs/graphics/src/*.cpp")
 set(OLD_GLOB
+  "/home/musab-farooq/Desktop/Break-Out/libs/graphics/src/ParticleGenerator.cpp"
+  "/home/musab-farooq/Desktop/Break-Out/libs/graphics/src/SpriteRenderer.cpp"
+  "/home/musab-farooq/Desktop/Break-Out/libs/graphics/src/resource_manager.cpp"
   "/home/musab-farooq/Desktop/Break-Out/libs/graphics/src/shaders.cpp"
+  "/home/musab-farooq/Desktop/Break-Out/libs/graphics/src/texture.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

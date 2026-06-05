@@ -16,4 +16,5 @@ target_link_libraries(graphics
     PUBLIC
         glad
         glm
+        stb_image
 )

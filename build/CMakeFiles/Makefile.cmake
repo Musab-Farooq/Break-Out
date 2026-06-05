@@ -17,6 +17,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/cmake.verify_globs"
   "/home/musab-farooq/Desktop/Break-Out/libs/CMakeLists.txt"
   "/home/musab-farooq/Desktop/Break-Out/libs/external_libs/CMakeLists.txt"
+  "/home/musab-farooq/Desktop/Break-Out/libs/game/CMakeLists.txt"
   "/home/musab-farooq/Desktop/Break-Out/libs/graphics/CMakeLists.txt"
   "/usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Config.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3ConfigVersion.cmake"
@@ -133,16 +134,19 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "libs/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "libs/external_libs/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "libs/graphics/CMakeFiles/CMakeDirectoryInformation.cmake"
   "apps/CMakeFiles/CMakeDirectoryInformation.cmake"
   "apps/sandbox/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "libs/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "libs/external_libs/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "libs/game/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "libs/graphics/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "libs/external_libs/CMakeFiles/glad.dir/DependInfo.cmake"
-  "libs/graphics/CMakeFiles/graphics.dir/DependInfo.cmake"
   "apps/sandbox/CMakeFiles/sandbox.dir/DependInfo.cmake"
+  "libs/external_libs/CMakeFiles/glad.dir/DependInfo.cmake"
+  "libs/external_libs/CMakeFiles/stb_image.dir/DependInfo.cmake"
+  "libs/game/CMakeFiles/game.dir/DependInfo.cmake"
+  "libs/graphics/CMakeFiles/graphics.dir/DependInfo.cmake"
   )

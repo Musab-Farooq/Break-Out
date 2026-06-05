@@ -63,18 +63,18 @@ CMAKE_BINARY_DIR = /home/musab-farooq/Desktop/Break-Out/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: libs/all
 all: apps/all
+all: libs/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: libs/preinstall
 preinstall: apps/preinstall
+preinstall: libs/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: libs/clean
 clean: apps/clean
+clean: libs/clean
 .PHONY : clean
 
 #=============================================================================
@@ -112,16 +112,19 @@ apps/sandbox/clean: apps/sandbox/CMakeFiles/sandbox.dir/clean
 
 # Recursive "all" directory target.
 libs/all: libs/external_libs/all
+libs/all: libs/game/all
 libs/all: libs/graphics/all
 .PHONY : libs/all
 
 # Recursive "preinstall" directory target.
 libs/preinstall: libs/external_libs/preinstall
+libs/preinstall: libs/game/preinstall
 libs/preinstall: libs/graphics/preinstall
 .PHONY : libs/preinstall
 
 # Recursive "clean" directory target.
 libs/clean: libs/external_libs/clean
+libs/clean: libs/game/clean
 libs/clean: libs/graphics/clean
 .PHONY : libs/clean
 
@@ -130,6 +133,7 @@ libs/clean: libs/graphics/clean
 
 # Recursive "all" directory target.
 libs/external_libs/all: libs/external_libs/CMakeFiles/glad.dir/all
+libs/external_libs/all: libs/external_libs/CMakeFiles/stb_image.dir/all
 .PHONY : libs/external_libs/all
 
 # Recursive "preinstall" directory target.
@@ -138,7 +142,23 @@ libs/external_libs/preinstall:
 
 # Recursive "clean" directory target.
 libs/external_libs/clean: libs/external_libs/CMakeFiles/glad.dir/clean
+libs/external_libs/clean: libs/external_libs/CMakeFiles/stb_image.dir/clean
 .PHONY : libs/external_libs/clean
+
+#=============================================================================
+# Directory level rules for directory libs/game
+
+# Recursive "all" directory target.
+libs/game/all: libs/game/CMakeFiles/game.dir/all
+.PHONY : libs/game/all
+
+# Recursive "preinstall" directory target.
+libs/game/preinstall:
+.PHONY : libs/game/preinstall
+
+# Recursive "clean" directory target.
+libs/game/clean: libs/game/CMakeFiles/game.dir/clean
+.PHONY : libs/game/clean
 
 #=============================================================================
 # Directory level rules for directory libs/graphics
@@ -156,13 +176,42 @@ libs/graphics/clean: libs/graphics/CMakeFiles/graphics.dir/clean
 .PHONY : libs/graphics/clean
 
 #=============================================================================
+# Target rules for target apps/sandbox/CMakeFiles/sandbox.dir
+
+# All Build rule for target.
+apps/sandbox/CMakeFiles/sandbox.dir/all: libs/external_libs/CMakeFiles/glad.dir/all
+apps/sandbox/CMakeFiles/sandbox.dir/all: libs/external_libs/CMakeFiles/stb_image.dir/all
+apps/sandbox/CMakeFiles/sandbox.dir/all: libs/game/CMakeFiles/game.dir/all
+apps/sandbox/CMakeFiles/sandbox.dir/all: libs/graphics/CMakeFiles/graphics.dir/all
+	$(MAKE) $(MAKESILENT) -f apps/sandbox/CMakeFiles/sandbox.dir/build.make apps/sandbox/CMakeFiles/sandbox.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/sandbox/CMakeFiles/sandbox.dir/build.make apps/sandbox/CMakeFiles/sandbox.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=15,16 "Built target sandbox"
+.PHONY : apps/sandbox/CMakeFiles/sandbox.dir/all
+
+# Build rule for subdir invocation for target.
+apps/sandbox/CMakeFiles/sandbox.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 18
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/sandbox/CMakeFiles/sandbox.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 0
+.PHONY : apps/sandbox/CMakeFiles/sandbox.dir/rule
+
+# Convenience name for target.
+sandbox: apps/sandbox/CMakeFiles/sandbox.dir/rule
+.PHONY : sandbox
+
+# clean rule for target.
+apps/sandbox/CMakeFiles/sandbox.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/sandbox/CMakeFiles/sandbox.dir/build.make apps/sandbox/CMakeFiles/sandbox.dir/clean
+.PHONY : apps/sandbox/CMakeFiles/sandbox.dir/clean
+
+#=============================================================================
 # Target rules for target libs/external_libs/CMakeFiles/glad.dir
 
 # All Build rule for target.
 libs/external_libs/CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f libs/external_libs/CMakeFiles/glad.dir/build.make libs/external_libs/CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/external_libs/CMakeFiles/glad.dir/build.make libs/external_libs/CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=1,2 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=7,8 "Built target glad"
 .PHONY : libs/external_libs/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
@@ -182,18 +231,73 @@ libs/external_libs/CMakeFiles/glad.dir/clean:
 .PHONY : libs/external_libs/CMakeFiles/glad.dir/clean
 
 #=============================================================================
+# Target rules for target libs/external_libs/CMakeFiles/stb_image.dir
+
+# All Build rule for target.
+libs/external_libs/CMakeFiles/stb_image.dir/all:
+	$(MAKE) $(MAKESILENT) -f libs/external_libs/CMakeFiles/stb_image.dir/build.make libs/external_libs/CMakeFiles/stb_image.dir/depend
+	$(MAKE) $(MAKESILENT) -f libs/external_libs/CMakeFiles/stb_image.dir/build.make libs/external_libs/CMakeFiles/stb_image.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=17,18 "Built target stb_image"
+.PHONY : libs/external_libs/CMakeFiles/stb_image.dir/all
+
+# Build rule for subdir invocation for target.
+libs/external_libs/CMakeFiles/stb_image.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/external_libs/CMakeFiles/stb_image.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 0
+.PHONY : libs/external_libs/CMakeFiles/stb_image.dir/rule
+
+# Convenience name for target.
+stb_image: libs/external_libs/CMakeFiles/stb_image.dir/rule
+.PHONY : stb_image
+
+# clean rule for target.
+libs/external_libs/CMakeFiles/stb_image.dir/clean:
+	$(MAKE) $(MAKESILENT) -f libs/external_libs/CMakeFiles/stb_image.dir/build.make libs/external_libs/CMakeFiles/stb_image.dir/clean
+.PHONY : libs/external_libs/CMakeFiles/stb_image.dir/clean
+
+#=============================================================================
+# Target rules for target libs/game/CMakeFiles/game.dir
+
+# All Build rule for target.
+libs/game/CMakeFiles/game.dir/all: libs/external_libs/CMakeFiles/glad.dir/all
+libs/game/CMakeFiles/game.dir/all: libs/external_libs/CMakeFiles/stb_image.dir/all
+libs/game/CMakeFiles/game.dir/all: libs/graphics/CMakeFiles/graphics.dir/all
+	$(MAKE) $(MAKESILENT) -f libs/game/CMakeFiles/game.dir/build.make libs/game/CMakeFiles/game.dir/depend
+	$(MAKE) $(MAKESILENT) -f libs/game/CMakeFiles/game.dir/build.make libs/game/CMakeFiles/game.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target game"
+.PHONY : libs/game/CMakeFiles/game.dir/all
+
+# Build rule for subdir invocation for target.
+libs/game/CMakeFiles/game.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 16
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/game/CMakeFiles/game.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 0
+.PHONY : libs/game/CMakeFiles/game.dir/rule
+
+# Convenience name for target.
+game: libs/game/CMakeFiles/game.dir/rule
+.PHONY : game
+
+# clean rule for target.
+libs/game/CMakeFiles/game.dir/clean:
+	$(MAKE) $(MAKESILENT) -f libs/game/CMakeFiles/game.dir/build.make libs/game/CMakeFiles/game.dir/clean
+.PHONY : libs/game/CMakeFiles/game.dir/clean
+
+#=============================================================================
 # Target rules for target libs/graphics/CMakeFiles/graphics.dir
 
 # All Build rule for target.
 libs/graphics/CMakeFiles/graphics.dir/all: libs/external_libs/CMakeFiles/glad.dir/all
+libs/graphics/CMakeFiles/graphics.dir/all: libs/external_libs/CMakeFiles/stb_image.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=3,4 "Built target graphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=9,10,11,12,13,14 "Built target graphics"
 .PHONY : libs/graphics/CMakeFiles/graphics.dir/all
 
 # Build rule for subdir invocation for target.
 libs/graphics/CMakeFiles/graphics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/graphics/CMakeFiles/graphics.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 0
 .PHONY : libs/graphics/CMakeFiles/graphics.dir/rule
@@ -206,33 +310,6 @@ graphics: libs/graphics/CMakeFiles/graphics.dir/rule
 libs/graphics/CMakeFiles/graphics.dir/clean:
 	$(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/clean
 .PHONY : libs/graphics/CMakeFiles/graphics.dir/clean
-
-#=============================================================================
-# Target rules for target apps/sandbox/CMakeFiles/sandbox.dir
-
-# All Build rule for target.
-apps/sandbox/CMakeFiles/sandbox.dir/all: libs/external_libs/CMakeFiles/glad.dir/all
-apps/sandbox/CMakeFiles/sandbox.dir/all: libs/graphics/CMakeFiles/graphics.dir/all
-	$(MAKE) $(MAKESILENT) -f apps/sandbox/CMakeFiles/sandbox.dir/build.make apps/sandbox/CMakeFiles/sandbox.dir/depend
-	$(MAKE) $(MAKESILENT) -f apps/sandbox/CMakeFiles/sandbox.dir/build.make apps/sandbox/CMakeFiles/sandbox.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=5,6 "Built target sandbox"
-.PHONY : apps/sandbox/CMakeFiles/sandbox.dir/all
-
-# Build rule for subdir invocation for target.
-apps/sandbox/CMakeFiles/sandbox.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/sandbox/CMakeFiles/sandbox.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 0
-.PHONY : apps/sandbox/CMakeFiles/sandbox.dir/rule
-
-# Convenience name for target.
-sandbox: apps/sandbox/CMakeFiles/sandbox.dir/rule
-.PHONY : sandbox
-
-# clean rule for target.
-apps/sandbox/CMakeFiles/sandbox.dir/clean:
-	$(MAKE) $(MAKESILENT) -f apps/sandbox/CMakeFiles/sandbox.dir/build.make apps/sandbox/CMakeFiles/sandbox.dir/clean
-.PHONY : apps/sandbox/CMakeFiles/sandbox.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

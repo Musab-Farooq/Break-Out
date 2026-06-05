@@ -1,6 +1,7 @@
 apps/sandbox/CMakeFiles/sandbox.dir/main.cpp.o: \
  /home/musab-farooq/Desktop/Break-Out/apps/sandbox/main.cpp \
  /usr/include/stdc-predef.h \
+ /home/musab-farooq/Desktop/Break-Out/libs/game/include/window.h \
  /home/musab-farooq/Desktop/Break-Out/libs/external_libs/include/glad/glad.h \
  /home/musab-farooq/Desktop/Break-Out/libs/external_libs/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
@@ -155,8 +156,16 @@ apps/sandbox/CMakeFiles/sandbox.dir/main.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/cmath \
- /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/c++/13/bits/istream.tcc \
+ /home/musab-farooq/Desktop/Break-Out/libs/game/include/game.h \
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc \
+ /home/musab-farooq/Desktop/Break-Out/libs/external_libs/include/glm/glm/glm.hpp \
+ /home/musab-farooq/Desktop/Break-Out/libs/external_libs/include/glm/glm/detail/_fixes.hpp \
+ /usr/include/c++/13/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
@@ -177,16 +186,7 @@ apps/sandbox/CMakeFiles/sandbox.dir/main.cpp.o: \
  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
- /usr/include/c++/13/tr1/riemann_zeta.tcc \
- /home/musab-farooq/Desktop/Break-Out/libs/graphics/include/shaders.h \
- /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
- /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/sstream \
- /usr/include/c++/13/bits/sstream.tcc \
- /home/musab-farooq/Desktop/Break-Out/libs/external_libs/include/glm/glm/glm.hpp \
- /home/musab-farooq/Desktop/Break-Out/libs/external_libs/include/glm/glm/detail/_fixes.hpp \
- /usr/include/c++/13/climits \
+ /usr/include/c++/13/tr1/riemann_zeta.tcc /usr/include/c++/13/climits \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -391,5 +391,24 @@ apps/sandbox/CMakeFiles/sandbox.dir/main.cpp.o: \
  /home/musab-farooq/Desktop/Break-Out/libs/external_libs/include/glm/glm/gtc/../gtc/quaternion_simd.inl \
  /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
  /home/musab-farooq/Desktop/Break-Out/libs/external_libs/include/glm/glm/gtc/type_ptr.inl \
- /home/musab-farooq/Desktop/Break-Out/libs/external_libs/include/glad/stb_image.h \
- /usr/include/c++/13/math.h
+ /home/musab-farooq/Desktop/Break-Out/libs/game/include/gamelevel.h \
+ /home/musab-farooq/Desktop/Break-Out/libs/game/include/gameobject.h \
+ /home/musab-farooq/Desktop/Break-Out/libs/graphics/include/texture.h \
+ /home/musab-farooq/Desktop/Break-Out/libs/graphics/include/SpriteRenderer.h \
+ /home/musab-farooq/Desktop/Break-Out/libs/graphics/include/shaders.h \
+ /home/musab-farooq/Desktop/Break-Out/libs/graphics/include/resource_manager.h \
+ /usr/include/c++/13/map /usr/include/c++/13/bits/stl_tree.h \
+ /usr/include/c++/13/ext/aligned_buffer.h \
+ /usr/include/c++/13/bits/node_handle.h \
+ /usr/include/c++/13/bits/stl_map.h \
+ /usr/include/c++/13/bits/stl_multimap.h \
+ /usr/include/c++/13/bits/erase_if.h /usr/include/c++/13/sstream \
+ /usr/include/c++/13/bits/sstream.tcc /usr/include/c++/13/fstream \
+ /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+ /usr/include/c++/13/bits/fstream.tcc \
+ /home/musab-farooq/Desktop/Break-Out/libs/external_libs/include/stb_image/stb_image.h \
+ /home/musab-farooq/Desktop/Break-Out/libs/graphics/include/texture.h \
+ /home/musab-farooq/Desktop/Break-Out/libs/graphics/include/shaders.h \
+ /home/musab-farooq/Desktop/Break-Out/libs/game/include/BallObject.h

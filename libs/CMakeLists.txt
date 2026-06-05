@@ -7,3 +7,10 @@ foreach(child ${children})
         add_subdirectory(${child})
     endif()
 endforeach()
+
+target_compile_definitions(sandbox
+    PRIVATE
+        SHADER_DIR="${CMAKE_SOURCE_DIR}/libs/graphics/include/"
+        TEXTURE_DIR="${CMAKE_SOURCE_DIR}/libs/graphics/texture/"
+        LEVEL_DIR="${CMAKE_SOURCE_DIR}/libs/game/levels/"
+)

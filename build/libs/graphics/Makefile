@@ -131,6 +131,78 @@ graphics/fast:
 	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/build
 .PHONY : graphics/fast
 
+src/ParticleGenerator.o: src/ParticleGenerator.cpp.o
+.PHONY : src/ParticleGenerator.o
+
+# target to build an object file
+src/ParticleGenerator.cpp.o:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/src/ParticleGenerator.cpp.o
+.PHONY : src/ParticleGenerator.cpp.o
+
+src/ParticleGenerator.i: src/ParticleGenerator.cpp.i
+.PHONY : src/ParticleGenerator.i
+
+# target to preprocess a source file
+src/ParticleGenerator.cpp.i:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/src/ParticleGenerator.cpp.i
+.PHONY : src/ParticleGenerator.cpp.i
+
+src/ParticleGenerator.s: src/ParticleGenerator.cpp.s
+.PHONY : src/ParticleGenerator.s
+
+# target to generate assembly for a file
+src/ParticleGenerator.cpp.s:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/src/ParticleGenerator.cpp.s
+.PHONY : src/ParticleGenerator.cpp.s
+
+src/SpriteRenderer.o: src/SpriteRenderer.cpp.o
+.PHONY : src/SpriteRenderer.o
+
+# target to build an object file
+src/SpriteRenderer.cpp.o:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/src/SpriteRenderer.cpp.o
+.PHONY : src/SpriteRenderer.cpp.o
+
+src/SpriteRenderer.i: src/SpriteRenderer.cpp.i
+.PHONY : src/SpriteRenderer.i
+
+# target to preprocess a source file
+src/SpriteRenderer.cpp.i:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/src/SpriteRenderer.cpp.i
+.PHONY : src/SpriteRenderer.cpp.i
+
+src/SpriteRenderer.s: src/SpriteRenderer.cpp.s
+.PHONY : src/SpriteRenderer.s
+
+# target to generate assembly for a file
+src/SpriteRenderer.cpp.s:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/src/SpriteRenderer.cpp.s
+.PHONY : src/SpriteRenderer.cpp.s
+
+src/resource_manager.o: src/resource_manager.cpp.o
+.PHONY : src/resource_manager.o
+
+# target to build an object file
+src/resource_manager.cpp.o:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/src/resource_manager.cpp.o
+.PHONY : src/resource_manager.cpp.o
+
+src/resource_manager.i: src/resource_manager.cpp.i
+.PHONY : src/resource_manager.i
+
+# target to preprocess a source file
+src/resource_manager.cpp.i:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/src/resource_manager.cpp.i
+.PHONY : src/resource_manager.cpp.i
+
+src/resource_manager.s: src/resource_manager.cpp.s
+.PHONY : src/resource_manager.s
+
+# target to generate assembly for a file
+src/resource_manager.cpp.s:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/src/resource_manager.cpp.s
+.PHONY : src/resource_manager.cpp.s
+
 src/shaders.o: src/shaders.cpp.o
 .PHONY : src/shaders.o
 
@@ -155,6 +227,30 @@ src/shaders.cpp.s:
 	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/src/shaders.cpp.s
 .PHONY : src/shaders.cpp.s
 
+src/texture.o: src/texture.cpp.o
+.PHONY : src/texture.o
+
+# target to build an object file
+src/texture.cpp.o:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/src/texture.cpp.o
+.PHONY : src/texture.cpp.o
+
+src/texture.i: src/texture.cpp.i
+.PHONY : src/texture.i
+
+# target to preprocess a source file
+src/texture.cpp.i:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/src/texture.cpp.i
+.PHONY : src/texture.cpp.i
+
+src/texture.s: src/texture.cpp.s
+.PHONY : src/texture.s
+
+# target to generate assembly for a file
+src/texture.cpp.s:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/src/texture.cpp.s
+.PHONY : src/texture.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -164,9 +260,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... graphics"
+	@echo "... src/ParticleGenerator.o"
+	@echo "... src/ParticleGenerator.i"
+	@echo "... src/ParticleGenerator.s"
+	@echo "... src/SpriteRenderer.o"
+	@echo "... src/SpriteRenderer.i"
+	@echo "... src/SpriteRenderer.s"
+	@echo "... src/resource_manager.o"
+	@echo "... src/resource_manager.i"
+	@echo "... src/resource_manager.s"
 	@echo "... src/shaders.o"
 	@echo "... src/shaders.i"
 	@echo "... src/shaders.s"
+	@echo "... src/texture.o"
+	@echo "... src/texture.i"
+	@echo "... src/texture.s"
 .PHONY : help
 
 

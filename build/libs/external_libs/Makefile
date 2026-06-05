@@ -131,6 +131,20 @@ glad/fast:
 	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/external_libs/CMakeFiles/glad.dir/build.make libs/external_libs/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
+# Convenience name for target.
+libs/external_libs/CMakeFiles/stb_image.dir/rule:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/external_libs/CMakeFiles/stb_image.dir/rule
+.PHONY : libs/external_libs/CMakeFiles/stb_image.dir/rule
+
+# Convenience name for target.
+stb_image: libs/external_libs/CMakeFiles/stb_image.dir/rule
+.PHONY : stb_image
+
+# fast build rule for target.
+stb_image/fast:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/external_libs/CMakeFiles/stb_image.dir/build.make libs/external_libs/CMakeFiles/stb_image.dir/build
+.PHONY : stb_image/fast
+
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
@@ -155,6 +169,30 @@ src/glad.c.s:
 	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/external_libs/CMakeFiles/glad.dir/build.make libs/external_libs/CMakeFiles/glad.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
+src/stb_image_impl.o: src/stb_image_impl.cpp.o
+.PHONY : src/stb_image_impl.o
+
+# target to build an object file
+src/stb_image_impl.cpp.o:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/external_libs/CMakeFiles/stb_image.dir/build.make libs/external_libs/CMakeFiles/stb_image.dir/src/stb_image_impl.cpp.o
+.PHONY : src/stb_image_impl.cpp.o
+
+src/stb_image_impl.i: src/stb_image_impl.cpp.i
+.PHONY : src/stb_image_impl.i
+
+# target to preprocess a source file
+src/stb_image_impl.cpp.i:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/external_libs/CMakeFiles/stb_image.dir/build.make libs/external_libs/CMakeFiles/stb_image.dir/src/stb_image_impl.cpp.i
+.PHONY : src/stb_image_impl.cpp.i
+
+src/stb_image_impl.s: src/stb_image_impl.cpp.s
+.PHONY : src/stb_image_impl.s
+
+# target to generate assembly for a file
+src/stb_image_impl.cpp.s:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/external_libs/CMakeFiles/stb_image.dir/build.make libs/external_libs/CMakeFiles/stb_image.dir/src/stb_image_impl.cpp.s
+.PHONY : src/stb_image_impl.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -164,9 +202,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... glad"
+	@echo "... stb_image"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
+	@echo "... src/stb_image_impl.o"
+	@echo "... src/stb_image_impl.i"
+	@echo "... src/stb_image_impl.s"
 .PHONY : help
 
 

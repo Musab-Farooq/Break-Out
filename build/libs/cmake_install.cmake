@@ -49,6 +49,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/musab-farooq/Desktop/Break-Out/build/libs/game/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/musab-farooq/Desktop/Break-Out/build/libs/graphics/cmake_install.cmake")
 endif()
 
