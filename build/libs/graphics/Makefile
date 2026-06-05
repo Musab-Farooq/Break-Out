@@ -155,6 +155,30 @@ src/ParticleGenerator.cpp.s:
 	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/src/ParticleGenerator.cpp.s
 .PHONY : src/ParticleGenerator.cpp.s
 
+src/PostProcessor.o: src/PostProcessor.cpp.o
+.PHONY : src/PostProcessor.o
+
+# target to build an object file
+src/PostProcessor.cpp.o:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/src/PostProcessor.cpp.o
+.PHONY : src/PostProcessor.cpp.o
+
+src/PostProcessor.i: src/PostProcessor.cpp.i
+.PHONY : src/PostProcessor.i
+
+# target to preprocess a source file
+src/PostProcessor.cpp.i:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/src/PostProcessor.cpp.i
+.PHONY : src/PostProcessor.cpp.i
+
+src/PostProcessor.s: src/PostProcessor.cpp.s
+.PHONY : src/PostProcessor.s
+
+# target to generate assembly for a file
+src/PostProcessor.cpp.s:
+	cd /home/musab-farooq/Desktop/Break-Out/build && $(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/src/PostProcessor.cpp.s
+.PHONY : src/PostProcessor.cpp.s
+
 src/SpriteRenderer.o: src/SpriteRenderer.cpp.o
 .PHONY : src/SpriteRenderer.o
 
@@ -263,6 +287,9 @@ help:
 	@echo "... src/ParticleGenerator.o"
 	@echo "... src/ParticleGenerator.i"
 	@echo "... src/ParticleGenerator.s"
+	@echo "... src/PostProcessor.o"
+	@echo "... src/PostProcessor.i"
+	@echo "... src/PostProcessor.s"
 	@echo "... src/SpriteRenderer.o"
 	@echo "... src/SpriteRenderer.i"
 	@echo "... src/SpriteRenderer.s"

@@ -14,6 +14,7 @@
 #include <resource_manager.h>
 #include <BallObject.h>
 #include <ParticleGenerator.h>
+#include <PostProcessor.h>
 
 
 enum GameState {

@@ -83,10 +83,24 @@ libs/graphics/CMakeFiles/graphics.dir/src/ParticleGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/src/ParticleGenerator.cpp.s"
 	cd /home/musab-farooq/Desktop/Break-Out/build/libs/graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/musab-farooq/Desktop/Break-Out/libs/graphics/src/ParticleGenerator.cpp -o CMakeFiles/graphics.dir/src/ParticleGenerator.cpp.s
 
+libs/graphics/CMakeFiles/graphics.dir/src/PostProcessor.cpp.o: libs/graphics/CMakeFiles/graphics.dir/flags.make
+libs/graphics/CMakeFiles/graphics.dir/src/PostProcessor.cpp.o: /home/musab-farooq/Desktop/Break-Out/libs/graphics/src/PostProcessor.cpp
+libs/graphics/CMakeFiles/graphics.dir/src/PostProcessor.cpp.o: libs/graphics/CMakeFiles/graphics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/graphics/CMakeFiles/graphics.dir/src/PostProcessor.cpp.o"
+	cd /home/musab-farooq/Desktop/Break-Out/build/libs/graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/graphics/CMakeFiles/graphics.dir/src/PostProcessor.cpp.o -MF CMakeFiles/graphics.dir/src/PostProcessor.cpp.o.d -o CMakeFiles/graphics.dir/src/PostProcessor.cpp.o -c /home/musab-farooq/Desktop/Break-Out/libs/graphics/src/PostProcessor.cpp
+
+libs/graphics/CMakeFiles/graphics.dir/src/PostProcessor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/graphics.dir/src/PostProcessor.cpp.i"
+	cd /home/musab-farooq/Desktop/Break-Out/build/libs/graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/musab-farooq/Desktop/Break-Out/libs/graphics/src/PostProcessor.cpp > CMakeFiles/graphics.dir/src/PostProcessor.cpp.i
+
+libs/graphics/CMakeFiles/graphics.dir/src/PostProcessor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/src/PostProcessor.cpp.s"
+	cd /home/musab-farooq/Desktop/Break-Out/build/libs/graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/musab-farooq/Desktop/Break-Out/libs/graphics/src/PostProcessor.cpp -o CMakeFiles/graphics.dir/src/PostProcessor.cpp.s
+
 libs/graphics/CMakeFiles/graphics.dir/src/SpriteRenderer.cpp.o: libs/graphics/CMakeFiles/graphics.dir/flags.make
 libs/graphics/CMakeFiles/graphics.dir/src/SpriteRenderer.cpp.o: /home/musab-farooq/Desktop/Break-Out/libs/graphics/src/SpriteRenderer.cpp
 libs/graphics/CMakeFiles/graphics.dir/src/SpriteRenderer.cpp.o: libs/graphics/CMakeFiles/graphics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/graphics/CMakeFiles/graphics.dir/src/SpriteRenderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libs/graphics/CMakeFiles/graphics.dir/src/SpriteRenderer.cpp.o"
 	cd /home/musab-farooq/Desktop/Break-Out/build/libs/graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/graphics/CMakeFiles/graphics.dir/src/SpriteRenderer.cpp.o -MF CMakeFiles/graphics.dir/src/SpriteRenderer.cpp.o.d -o CMakeFiles/graphics.dir/src/SpriteRenderer.cpp.o -c /home/musab-farooq/Desktop/Break-Out/libs/graphics/src/SpriteRenderer.cpp
 
 libs/graphics/CMakeFiles/graphics.dir/src/SpriteRenderer.cpp.i: cmake_force
@@ -100,7 +114,7 @@ libs/graphics/CMakeFiles/graphics.dir/src/SpriteRenderer.cpp.s: cmake_force
 libs/graphics/CMakeFiles/graphics.dir/src/resource_manager.cpp.o: libs/graphics/CMakeFiles/graphics.dir/flags.make
 libs/graphics/CMakeFiles/graphics.dir/src/resource_manager.cpp.o: /home/musab-farooq/Desktop/Break-Out/libs/graphics/src/resource_manager.cpp
 libs/graphics/CMakeFiles/graphics.dir/src/resource_manager.cpp.o: libs/graphics/CMakeFiles/graphics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libs/graphics/CMakeFiles/graphics.dir/src/resource_manager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libs/graphics/CMakeFiles/graphics.dir/src/resource_manager.cpp.o"
 	cd /home/musab-farooq/Desktop/Break-Out/build/libs/graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/graphics/CMakeFiles/graphics.dir/src/resource_manager.cpp.o -MF CMakeFiles/graphics.dir/src/resource_manager.cpp.o.d -o CMakeFiles/graphics.dir/src/resource_manager.cpp.o -c /home/musab-farooq/Desktop/Break-Out/libs/graphics/src/resource_manager.cpp
 
 libs/graphics/CMakeFiles/graphics.dir/src/resource_manager.cpp.i: cmake_force
@@ -114,7 +128,7 @@ libs/graphics/CMakeFiles/graphics.dir/src/resource_manager.cpp.s: cmake_force
 libs/graphics/CMakeFiles/graphics.dir/src/shaders.cpp.o: libs/graphics/CMakeFiles/graphics.dir/flags.make
 libs/graphics/CMakeFiles/graphics.dir/src/shaders.cpp.o: /home/musab-farooq/Desktop/Break-Out/libs/graphics/src/shaders.cpp
 libs/graphics/CMakeFiles/graphics.dir/src/shaders.cpp.o: libs/graphics/CMakeFiles/graphics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libs/graphics/CMakeFiles/graphics.dir/src/shaders.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libs/graphics/CMakeFiles/graphics.dir/src/shaders.cpp.o"
 	cd /home/musab-farooq/Desktop/Break-Out/build/libs/graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/graphics/CMakeFiles/graphics.dir/src/shaders.cpp.o -MF CMakeFiles/graphics.dir/src/shaders.cpp.o.d -o CMakeFiles/graphics.dir/src/shaders.cpp.o -c /home/musab-farooq/Desktop/Break-Out/libs/graphics/src/shaders.cpp
 
 libs/graphics/CMakeFiles/graphics.dir/src/shaders.cpp.i: cmake_force
@@ -128,7 +142,7 @@ libs/graphics/CMakeFiles/graphics.dir/src/shaders.cpp.s: cmake_force
 libs/graphics/CMakeFiles/graphics.dir/src/texture.cpp.o: libs/graphics/CMakeFiles/graphics.dir/flags.make
 libs/graphics/CMakeFiles/graphics.dir/src/texture.cpp.o: /home/musab-farooq/Desktop/Break-Out/libs/graphics/src/texture.cpp
 libs/graphics/CMakeFiles/graphics.dir/src/texture.cpp.o: libs/graphics/CMakeFiles/graphics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libs/graphics/CMakeFiles/graphics.dir/src/texture.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libs/graphics/CMakeFiles/graphics.dir/src/texture.cpp.o"
 	cd /home/musab-farooq/Desktop/Break-Out/build/libs/graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/graphics/CMakeFiles/graphics.dir/src/texture.cpp.o -MF CMakeFiles/graphics.dir/src/texture.cpp.o.d -o CMakeFiles/graphics.dir/src/texture.cpp.o -c /home/musab-farooq/Desktop/Break-Out/libs/graphics/src/texture.cpp
 
 libs/graphics/CMakeFiles/graphics.dir/src/texture.cpp.i: cmake_force
@@ -142,6 +156,7 @@ libs/graphics/CMakeFiles/graphics.dir/src/texture.cpp.s: cmake_force
 # Object files for target graphics
 graphics_OBJECTS = \
 "CMakeFiles/graphics.dir/src/ParticleGenerator.cpp.o" \
+"CMakeFiles/graphics.dir/src/PostProcessor.cpp.o" \
 "CMakeFiles/graphics.dir/src/SpriteRenderer.cpp.o" \
 "CMakeFiles/graphics.dir/src/resource_manager.cpp.o" \
 "CMakeFiles/graphics.dir/src/shaders.cpp.o" \
@@ -151,13 +166,14 @@ graphics_OBJECTS = \
 graphics_EXTERNAL_OBJECTS =
 
 libs/graphics/libgraphics.a: libs/graphics/CMakeFiles/graphics.dir/src/ParticleGenerator.cpp.o
+libs/graphics/libgraphics.a: libs/graphics/CMakeFiles/graphics.dir/src/PostProcessor.cpp.o
 libs/graphics/libgraphics.a: libs/graphics/CMakeFiles/graphics.dir/src/SpriteRenderer.cpp.o
 libs/graphics/libgraphics.a: libs/graphics/CMakeFiles/graphics.dir/src/resource_manager.cpp.o
 libs/graphics/libgraphics.a: libs/graphics/CMakeFiles/graphics.dir/src/shaders.cpp.o
 libs/graphics/libgraphics.a: libs/graphics/CMakeFiles/graphics.dir/src/texture.cpp.o
 libs/graphics/libgraphics.a: libs/graphics/CMakeFiles/graphics.dir/build.make
 libs/graphics/libgraphics.a: libs/graphics/CMakeFiles/graphics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libgraphics.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libgraphics.a"
 	cd /home/musab-farooq/Desktop/Break-Out/build/libs/graphics && $(CMAKE_COMMAND) -P CMakeFiles/graphics.dir/cmake_clean_target.cmake
 	cd /home/musab-farooq/Desktop/Break-Out/build/libs/graphics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/graphics.dir/link.txt --verbose=$(VERBOSE)
 

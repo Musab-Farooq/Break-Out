@@ -184,12 +184,12 @@ apps/sandbox/CMakeFiles/sandbox.dir/all: libs/external_libs/CMakeFiles/stb_image
 apps/sandbox/CMakeFiles/sandbox.dir/all: libs/game/CMakeFiles/game.dir/all
 	$(MAKE) $(MAKESILENT) -f apps/sandbox/CMakeFiles/sandbox.dir/build.make apps/sandbox/CMakeFiles/sandbox.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps/sandbox/CMakeFiles/sandbox.dir/build.make apps/sandbox/CMakeFiles/sandbox.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=15,16 "Built target sandbox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=16,17 "Built target sandbox"
 .PHONY : apps/sandbox/CMakeFiles/sandbox.dir/all
 
 # Build rule for subdir invocation for target.
 apps/sandbox/CMakeFiles/sandbox.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/sandbox/CMakeFiles/sandbox.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 0
 .PHONY : apps/sandbox/CMakeFiles/sandbox.dir/rule
@@ -236,7 +236,7 @@ libs/external_libs/CMakeFiles/glad.dir/clean:
 libs/external_libs/CMakeFiles/stb_image.dir/all:
 	$(MAKE) $(MAKESILENT) -f libs/external_libs/CMakeFiles/stb_image.dir/build.make libs/external_libs/CMakeFiles/stb_image.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/external_libs/CMakeFiles/stb_image.dir/build.make libs/external_libs/CMakeFiles/stb_image.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=17,18 "Built target stb_image"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=18,19 "Built target stb_image"
 .PHONY : libs/external_libs/CMakeFiles/stb_image.dir/all
 
 # Build rule for subdir invocation for target.
@@ -267,7 +267,7 @@ libs/game/CMakeFiles/game.dir/all: libs/graphics/CMakeFiles/graphics.dir/all
 
 # Build rule for subdir invocation for target.
 libs/game/CMakeFiles/game.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/game/CMakeFiles/game.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 0
 .PHONY : libs/game/CMakeFiles/game.dir/rule
@@ -289,12 +289,12 @@ libs/graphics/CMakeFiles/graphics.dir/all: libs/external_libs/CMakeFiles/glad.di
 libs/graphics/CMakeFiles/graphics.dir/all: libs/external_libs/CMakeFiles/stb_image.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/graphics/CMakeFiles/graphics.dir/build.make libs/graphics/CMakeFiles/graphics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=9,10,11,12,13,14 "Built target graphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/musab-farooq/Desktop/Break-Out/build/CMakeFiles --progress-num=9,10,11,12,13,14,15 "Built target graphics"
 .PHONY : libs/graphics/CMakeFiles/graphics.dir/all
 
 # Build rule for subdir invocation for target.
 libs/graphics/CMakeFiles/graphics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/graphics/CMakeFiles/graphics.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/musab-farooq/Desktop/Break-Out/build/CMakeFiles 0
 .PHONY : libs/graphics/CMakeFiles/graphics.dir/rule

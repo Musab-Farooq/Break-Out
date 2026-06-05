@@ -1,3 +1,5 @@
+#pragma once
+
 #include <shaders.h>
 #include <texture.h>
 #include <iostream>

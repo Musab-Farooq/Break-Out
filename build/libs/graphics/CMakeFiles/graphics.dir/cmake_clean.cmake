@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/graphics.dir/src/ParticleGenerator.cpp.o"
   "CMakeFiles/graphics.dir/src/ParticleGenerator.cpp.o.d"
+  "CMakeFiles/graphics.dir/src/PostProcessor.cpp.o"
+  "CMakeFiles/graphics.dir/src/PostProcessor.cpp.o.d"
   "CMakeFiles/graphics.dir/src/SpriteRenderer.cpp.o"
   "CMakeFiles/graphics.dir/src/SpriteRenderer.cpp.o.d"
   "CMakeFiles/graphics.dir/src/resource_manager.cpp.o"

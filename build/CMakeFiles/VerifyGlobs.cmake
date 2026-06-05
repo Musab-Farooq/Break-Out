@@ -30,6 +30,7 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/musab-farooq/Desktop/Break-Out/libs/graphics/src/*.cpp")
 set(OLD_GLOB
   "/home/musab-farooq/Desktop/Break-Out/libs/graphics/src/ParticleGenerator.cpp"
+  "/home/musab-farooq/Desktop/Break-Out/libs/graphics/src/PostProcessor.cpp"
   "/home/musab-farooq/Desktop/Break-Out/libs/graphics/src/SpriteRenderer.cpp"
   "/home/musab-farooq/Desktop/Break-Out/libs/graphics/src/resource_manager.cpp"
   "/home/musab-farooq/Desktop/Break-Out/libs/graphics/src/shaders.cpp"
