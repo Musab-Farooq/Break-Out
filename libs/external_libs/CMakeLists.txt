@@ -27,3 +27,12 @@ target_include_directories(glm
     INTERFACE
         ${CMAKE_CURRENT_SOURCE_DIR}/include/glm
 )
+
+# glfw
+
+add_library(glfw INTERFACE)
+
+target_include_directories(glfw
+    INTERFACE
+        ${CMAKE_CURRENT_SOURCE_DIR}/include/glfw
+)
