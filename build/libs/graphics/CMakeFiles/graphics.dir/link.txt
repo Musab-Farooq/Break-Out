@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgraphics.a CMakeFiles/graphics.dir/src/ParticleGenerator.cpp.o CMakeFiles/graphics.dir/src/PostProcessor.cpp.o CMakeFiles/graphics.dir/src/SpriteRenderer.cpp.o CMakeFiles/graphics.dir/src/resource_manager.cpp.o CMakeFiles/graphics.dir/src/shaders.cpp.o CMakeFiles/graphics.dir/src/texture.cpp.o
+/usr/bin/ranlib libgraphics.a

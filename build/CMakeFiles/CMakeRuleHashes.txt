@@ -1,0 +1,21 @@
+# Hashes of file build rules.
+60732fbac9f56bbc49f1beac06a48eb4 libs/external_libs/include/glfw/CMakeFiles/uninstall
+78693e61ac780fb706277c546fed5079 libs/external_libs/include/glfw/src/CMakeFiles/update_mappings
+8121b6bb6ab8a18fa49d4c799e7706d5 libs/external_libs/include/glfw/src/fractional-scale-v1-client-protocol-code.h
+709d999ff4600c24ca0d57f8c24a533d libs/external_libs/include/glfw/src/fractional-scale-v1-client-protocol.h
+8ff7a5d709a863159e34298e58cadd7b libs/external_libs/include/glfw/src/idle-inhibit-unstable-v1-client-protocol-code.h
+63865bd057edb086996834ec5e87522a libs/external_libs/include/glfw/src/idle-inhibit-unstable-v1-client-protocol.h
+e021f70a2440e653332c2449367e4a29 libs/external_libs/include/glfw/src/pointer-constraints-unstable-v1-client-protocol-code.h
+7c9c650359d9f6e76388c44ad0094ea2 libs/external_libs/include/glfw/src/pointer-constraints-unstable-v1-client-protocol.h
+65b35953fe7ada9717cbfa05240db89b libs/external_libs/include/glfw/src/relative-pointer-unstable-v1-client-protocol-code.h
+02d0ab4a316a83ee63405bddbeb9d9cc libs/external_libs/include/glfw/src/relative-pointer-unstable-v1-client-protocol.h
+3ca76fa0b226f508c9a8b371e871ff71 libs/external_libs/include/glfw/src/viewporter-client-protocol-code.h
+7d52512c32b689bdd881e096a5f74327 libs/external_libs/include/glfw/src/viewporter-client-protocol.h
+c75ccd811685c74fafbad191591d4554 libs/external_libs/include/glfw/src/wayland-client-protocol-code.h
+71979940c063809cf861bfb1f22807b0 libs/external_libs/include/glfw/src/wayland-client-protocol.h
+76a7f874d0cc39175c38ef056deb3d27 libs/external_libs/include/glfw/src/xdg-activation-v1-client-protocol-code.h
+c861f410c4f858a7f682fb566a2bdad2 libs/external_libs/include/glfw/src/xdg-activation-v1-client-protocol.h
+09a01d5a187bbac8194d157219502332 libs/external_libs/include/glfw/src/xdg-decoration-unstable-v1-client-protocol-code.h
+1a81e5ef6fe99d57441631b9d6f76ec2 libs/external_libs/include/glfw/src/xdg-decoration-unstable-v1-client-protocol.h
+7c30c54a9003d05e5adb7548ed30343e libs/external_libs/include/glfw/src/xdg-shell-client-protocol-code.h
+57b93098c5ca77ca1ca09d6d1d87b753 libs/external_libs/include/glfw/src/xdg-shell-client-protocol.h

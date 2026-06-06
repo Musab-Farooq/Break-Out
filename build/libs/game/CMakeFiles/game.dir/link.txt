@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgame.a CMakeFiles/game.dir/src/BallObject.cpp.o CMakeFiles/game.dir/src/game.cpp.o CMakeFiles/game.dir/src/gamelevel.cpp.o CMakeFiles/game.dir/src/gameobject.cpp.o CMakeFiles/game.dir/src/window.cpp.o
+/usr/bin/ranlib libgame.a

@@ -17,6 +17,7 @@ target_link_libraries(game
         glad
         glm
         graphics
+        glfw
 )
 
 target_compile_definitions(game
